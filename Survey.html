@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <link rel="stylesheet" type="text/css" href="Survey.css"
+    </head>
+<body>
+    <div class="heading">
+        <h1 id= "head">Activity-1 Survey Form </h1>
+        <h2 id="subheading">Thank you for taking your time to helping me improve this Survey form</h2>
+    </div>
+    <form>
+        <div id="content1">
+            <label>Name</label><br><br>
+            <input type="text" name="name" placeholder="Enter your name" class="box" required><br><br>
+            <label>Email</label><br><br>
+            <input type="email" name="Email" placeholder="Enter your Email" class="box" required><br><br>
+            <label>Age</label><br><br>
+            <input type="number" name="age" placeholder="Enter your name" class="box" required><br><br>
+            <label>Which option describes your current role?</label><br><br> 
+        
+        <div id="option1">
+            <select>
+                <option name="Select your role">Select your role</option>
+                <option value="Full time job">Teacher</option>
+                <option value="Full time learner">Student</option>
+                <option value="Prefer not to say">Prefer not to say</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>     
+        <br>
+        <label id="head1">Would you recommened this Survey form to a friend?</label><br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspMaybe<br><br>
+        <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspNot Sure<br><br>  
+        <label> What is your favourite feature of this Survey form?</label><br>
+        <div id="option2">
+            <select>
+                <option name="Select an option">Select an option</option>
+                <option value="Challenged">Colour</option>
+                <option value="Project">Font</option>
+                <option value="Community">Presentation</option>
+                <option value="Open Source">Background</option>
+            </select>
+        </div>
+        <br><br>
+        <label id="head2">What would you like to see improved?(Check all that apply)</label><br>
+        <div id="content2">
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspColour-texture</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspFont-size</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspBackground-image</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspButton-size</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspFont-colour </label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspTextarea</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspButton-colour</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspCheckbox</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspRadio</label><br><br>
+            <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspRepresentation of the survey form</label><br><br>
+        </div>
+        <label id="head2">Any comments or suggestions</label><br><br>
+        <textarea placeholder="Enter Your Comment Here...." cols="99" rows="10"></textarea><br>
+        <button><h3>Submit</h3></button>
+    </form>
+</body>
+</html>
